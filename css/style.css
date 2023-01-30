@@ -10,8 +10,14 @@
     background-color: blue;
 }
 
+.whiteBotton {
+    text-decoration: none;
+    border: 1px solid black;
+    
+}
+
 .section {
-    width: 60vw;
+    width: 50vw;
     margin: auto;
 }
 
@@ -43,7 +49,7 @@ header {
 
 .containerJumbo {
     display: flex;
-    max-width: 70vw;
+    max-width: 60vw;
     margin: auto;
 }
 
@@ -130,4 +136,16 @@ padding: 20px 0px;
     text-align: center;
     display: block;
     margin: 0px 80px;
+}
+
+.contactPartner{
+   display: flex;
+}
+
+.imgFinestrone {
+    width: 60%;  
+}
+
+.joinDropbox {
+    width: 40%;
 }

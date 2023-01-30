@@ -41,3 +41,16 @@
 .debug .enterprise {
     background-color: pink;
 }
+
+.debug .contactPartner {
+    background-color: lightgreen;
+}
+
+.debug .imgFinestrone {
+    height: 400px;
+    background-color: aqua;  
+}
+
+.debug .whiteBotton {
+    background-color: white;
+}
