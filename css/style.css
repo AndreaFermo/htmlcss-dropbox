@@ -17,12 +17,42 @@ header {
 }
 
 .navHead a {
-    text-decoration: none;
     padding: 5px 10px;
     
 }
 
 .blueBotton {
+    text-decoration: none;
     color: white;
     background-color: blue;
+}
+
+.jumbotron {
+    background-color: aquamarine;
+}
+
+.jumbotron h1 {
+    padding: 60px 0px 40px;
+    text-align: center;
+}
+
+.containerJumbo {
+    display: flex;
+    width: 70vw;
+    margin: auto;
+}
+
+.jumboLeft {
+    width: 40%;
+}
+
+.jumboRight {
+    width: 60%;
+    position: relative;
+}
+
+.jumboImg {
+    position: absolute;
+    top: 30px;
+    left: 0px;
 }

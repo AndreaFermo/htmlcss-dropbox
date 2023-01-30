@@ -11,3 +11,17 @@
 .debug nav {
     background-color: lightgreen;
 }
+
+.debug .containerJumbo {
+    background-color: yellow;
+}
+
+.debug .jumboImg {
+    height: 500px;
+    width: 100%;
+    background-color: red;
+}
+
+.debug .jumboLeft {
+    height: 500px;
+}
