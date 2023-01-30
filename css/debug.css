@@ -1,0 +1,13 @@
+.debug .dashedB {
+    border: 2px dashed black;
+}
+
+
+.debug header {
+    background-color: pink;
+   
+}
+
+.debug nav {
+    background-color: lightgreen;
+}
