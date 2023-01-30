@@ -25,3 +25,11 @@
 .debug .jumboLeft {
     height: 500px;
 }
+
+.debug .invoice {
+    background-color: pink;
+}
+
+.debug .subscritions {
+    background-color: lightgreen;
+}

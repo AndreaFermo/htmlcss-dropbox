@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+.blueBotton {
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+}
+
+.section {
+    width: 60vw;
+    margin: auto;
+}
+
 header {
     height: 80px;
     width: 100vw;
@@ -21,12 +32,6 @@ header {
     
 }
 
-.blueBotton {
-    text-decoration: none;
-    color: white;
-    background-color: blue;
-}
-
 .jumbotron {
     background-color: aquamarine;
 }
@@ -38,7 +43,7 @@ header {
 
 .containerJumbo {
     display: flex;
-    width: 70vw;
+    max-width: 70vw;
     margin: auto;
 }
 
@@ -55,4 +60,56 @@ header {
     position: absolute;
     top: 30px;
     left: 0px;
+}
+
+.invoice {
+    padding-top: 100px;
+}
+
+.chooseInvoice {
+padding: 20px 0px;
+}
+
+.circle {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 14px;
+    width: 14px;
+}
+
+.blueCircle {
+    display: inline-block;
+    border: 3px solid blue;
+    border-radius: 50%;
+    height: 14px;
+    width: 14px;
+}
+
+.invoiceType{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.subscritions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.planContainer {
+    border: 1px solid black;
+    width: 32%;
+    
+}
+
+.plan {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+
+.planContainer .blueBotton {
+    text-align: center;
+    display: block;
+    margin: 0px 80px;
 }
