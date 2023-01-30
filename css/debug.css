@@ -76,6 +76,18 @@
     background-color: aqua;
 }
 
-.questions {
+.debug .questions {
     background-color: pink;
+}
+
+.debug footer {
+    background-color: peru;
+}
+
+.debug .footerColumns {
+    background-color: green;
+}
+
+.debug .footerCol {
+    background-color: aqua;
 }

@@ -200,3 +200,18 @@ padding: 20px 0px;
 .questions h2 {
     border-bottom: 2px solid black;
 }
+
+
+.footerColumns {
+    display: flex;
+}
+
+.footerCol {
+    width: 20%;
+}
+
+
+.footerContainer {
+    width: 60vw;
+    margin: auto;
+}
