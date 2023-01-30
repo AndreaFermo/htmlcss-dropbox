@@ -54,3 +54,11 @@
 .debug .whiteBotton {
     background-color: white;
 }
+
+.debug .business {
+    background-color: pink;
+} 
+.bssImg {
+    height: 200px;
+    background-color: blueviolet;
+}

@@ -149,3 +149,12 @@ padding: 20px 0px;
 .joinDropbox {
     width: 40%;
 }
+
+.bssContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bssCard {
+    width: calc(100%/3);
+}
