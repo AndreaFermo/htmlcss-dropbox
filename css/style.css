@@ -113,3 +113,21 @@ padding: 20px 0px;
     display: block;
     margin: 0px 80px;
 }
+
+.contact {
+    border: 1px solid black
+}
+
+.planCard {
+    display: flex;
+}
+
+.contactOffice {
+    width: 68%;
+}
+
+.contact .blueBotton {
+    text-align: center;
+    display: block;
+    margin: 0px 80px;
+}

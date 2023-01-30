@@ -12,6 +12,10 @@
     background-color: lightgreen;
 }
 
+.debug .section {
+    padding: 100px 0px;
+}
+
 .debug .containerJumbo {
     background-color: yellow;
 }
@@ -32,4 +36,8 @@
 
 .debug .subscritions {
     background-color: lightgreen;
+}
+
+.debug .enterprise {
+    background-color: pink;
 }
