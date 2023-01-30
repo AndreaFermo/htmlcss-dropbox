@@ -71,3 +71,11 @@
 .debug .bannerone {
     background-color: gray;
 }
+
+.debug .trial {
+    background-color: aqua;
+}
+
+.questions {
+    background-color: pink;
+}

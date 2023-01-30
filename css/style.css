@@ -177,3 +177,26 @@ padding: 20px 0px;
 .bannerone {
     width: 100%;
 }
+
+.bring * {
+    display: inline-block;
+}
+
+.trialBotton {
+    margin-left: 200px;
+}
+
+.questionContainer {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.openAnswer {
+    width: 40px
+    height: 40px;
+}
+
+.questions h2 {
+    border-bottom: 2px solid black;
+}
