@@ -158,3 +158,22 @@ padding: 20px 0px;
 .bssCard {
     width: calc(100%/3);
 }
+
+.sponsor {
+    width: 100vw;
+    display: flex;
+}
+
+.bannerSponsors {
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bannerino {
+    width: 50%;
+}
+
+.bannerone {
+    width: 100%;
+}

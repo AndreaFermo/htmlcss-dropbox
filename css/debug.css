@@ -58,7 +58,16 @@
 .debug .business {
     background-color: pink;
 } 
-.bssImg {
+.debug .bssImg {
     height: 200px;
     background-color: blueviolet;
+}
+
+.debug .bannerino {
+    background-color: green;
+    height: 200px;
+}
+
+.debug .bannerone {
+    background-color: gray;
 }
