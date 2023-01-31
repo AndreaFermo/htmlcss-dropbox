@@ -8,8 +8,23 @@
     font-size: 20px;
 }
 
+.textSize-25{
+    font-size: 25px;
+}
+.textSize-30{
+    font-size: 30px;
+}
+
+.textSize-40{
+    font-size: 40px;
+}
+
 .text-black {
     color: black;
+}
+
+.colorGray {
+    color: rgb(223, 223, 225);
 }
 
 .blueBotton {
@@ -105,7 +120,7 @@ header {
 }
 
 .invoice {
-    padding-top: 100px;
+    padding: 130px 0px 30px;
 }
 
 .chooseInvoice {
@@ -114,7 +129,7 @@ padding: 20px 0px;
 
 .circle {
     display: inline-block;
-    border: 1px solid black;
+    border: 1px solid rgb(223, 223, 225);
     border-radius: 50%;
     height: 14px;
     width: 14px;
@@ -130,7 +145,7 @@ padding: 20px 0px;
 
 .invoiceType{
     display: inline-block;
-    padding-right: 20px;
+    padding-right: 30px;
 }
 
 .subscritions {
@@ -138,17 +153,38 @@ padding: 20px 0px;
     justify-content: space-between;
 }
 
-.planContainer {
+.plansContainer {
     border: 1px solid black;
-    width: 32%;
+    width: 30%;
     
 }
 
 .plan {
     text-align: center;
     border-bottom: 1px solid black;
+    padding: 10px 0px;
 }
 
+.planContainer {
+    padding: 30px;
+}
+
+.planContainer h3 {
+    padding-bottom: 20px;
+}
+
+.planContainer .price {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.planContainer .planType {
+    padding-bottom: 40px;
+}
+
+.planContainer .utente {
+    padding-bottom: 15px;
+}
 
 .planContainer .blueBotton {
     text-align: center;
