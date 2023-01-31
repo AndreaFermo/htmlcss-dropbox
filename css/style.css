@@ -35,8 +35,11 @@
 
 .whiteBotton {
     text-decoration: none;
-    border: 1px solid black;
-    
+    border: 1px solid black;   
+}
+
+.padding-left-10px {
+    padding-left: 10px;
 }
 
 .section {
@@ -154,19 +157,19 @@ padding: 20px 0px;
 }
 
 .plansContainer {
-    border: 1px solid black;
+    border: 1px solid rgb(223, 223, 225);
     width: 30%;
     
 }
 
 .plan {
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(223, 223, 225);
     padding: 10px 0px;
 }
 
 .planContainer {
-    padding: 30px;
+    padding: 35px;
 }
 
 .planContainer h3 {
@@ -182,18 +185,50 @@ padding: 20px 0px;
     padding-bottom: 40px;
 }
 
-.planContainer .utente {
+.planContainer .utenti {
     padding-bottom: 15px;
+}
+
+.planContainer .spazio {
+    padding-bottom: 15px;
+}
+
+.planContainer .funzioni {
+    padding-bottom: 30px;
+    border-bottom: 1px;
 }
 
 .planContainer .blueBotton {
     text-align: center;
     display: block;
-    margin: 0px 80px;
+    margin: auto;
+    width: 90%;
+    padding: 10px 0px;
 }
 
+.planContainer .buy {
+    padding: 30px 0px;
+}
+
+.planContainer .greyline {
+    width: 50px;
+    border-bottom: 1px solid rgb(223, 223, 225);
+}
+
+.planContainer .points {
+    font-weight: bold;
+    padding: 40px 0px 30px;
+}
+
+.planContainer .vantaggi {
+    padding: 10px 0px 10px 10px;
+}
+
+
+
 .contact {
-    border: 1px solid black
+    border: 1px solid rgb(223, 223, 225);
+    margin: 30px 0px;
 }
 
 .planCard {
