@@ -7,6 +7,11 @@
 html {
     font-family: 'Open Sans', sans-serif;
 }
+
+.bordino {
+    border: 20px solid rgb(209, 233, 205);
+}
+
 .cl-white {
     filter: invert(1);
 }
