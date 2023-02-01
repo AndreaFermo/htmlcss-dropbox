@@ -22,6 +22,10 @@
     font-size: 30px;
 }
 
+.textSize-35 {
+    font-size: 35px;
+}
+
 .textSize-40{
     font-size: 40px;
 }
@@ -136,7 +140,7 @@ header {
 }
 
 .chooseInvoice {
-padding: 20px 0px;
+    padding: 20px 0px;
 }
 
 .circle {
@@ -443,34 +447,81 @@ padding: 20px 0px;
     background-color: white;
 }
 
-
-
 .questionContainer {
     display: flex;
     align-items: center;
-    border-bottom: 2px solid black;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    
+}
+
+.questions {
+    padding: 100px 0px;
+}
+
+.questions h3 {
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+.question {
+    padding: 30px 0px;
+}
+
+.questions p {
+   display: none;
 }
 
 .openAnswer {
-    width: 40px;
-    height: 40px;
+    padding: 0px 40px;
+   
 }
-
-.questions h2 {
-    border-bottom: 2px solid black;
-}
-
 
 .footerColumns {
     display: flex;
+    padding: 100px 0px;
 }
 
 .footerCol {
     width: 20%;
 }
 
+.footerCol h3 {
+    color: white;
+    padding-bottom: 15px;
+}
+
+.footerCol li {
+    color: white;
+    list-style: none;
+    padding: 5px 0px;
+}
+
+.footerCol a {
+    color: white;
+    text-decoration: none;
+}
 
 .footerContainer {
-    width: 60vw;
+    width: 1270px;
     margin: auto;
+}
+
+footer .whiteline {
+    width: 100px;
+    border-bottom: 1px solid white;
+}
+
+#changeLan {
+    padding: 40px 0px;
+}
+
+#changeLan a {
+    color: grey;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+footer {
+    background-color: black;
 }
